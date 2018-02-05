@@ -1,0 +1,238 @@
+body{
+	  margin:0;
+	  padding: 0;
+    
+}
+h1{
+	text-align: center;
+}
+nav p{
+	text-align: center;
+	font-size: 150%;
+}
+
+
+#nombreError,#ciError,.labelFlotante{
+	opacity: 0.5;
+	position:absolute;
+	}
+.noTargeteable{
+    white-space:nowrap;
+}
+#fbIcon{
+	margin-top: 1%;
+	margin-right: 2%;
+	float: right;
+	opacity: 0.4;
+}
+#email{
+width:86%;
+margin-top: 3%;
+}
+.decoracion{
+	margin-top: 3%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+	width:40%;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+}
+header{
+top: 0;
+	width: 100%;
+background-image: url(../img/banner.png);	
+background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+#textoBanner{
+	padding-top: 10%;
+	padding-bottom: 10%;
+opacity: 0.3;
+text-align: center; 
+}
+
+
+#parteArriba{
+	background-color: black;
+	font-size: 20px;
+
+}
+#parteArriba p{
+	color: #FFFFFF;
+	width:auto;
+	display: inline-block;
+	   margin-left: 3%;
+}
+#landingRight{
+	margin-right: 1%;
+float: right;
+	font-size: 15px;
+	opacity: 0.5;
+	margin-top: 2%;
+}
+
+nav{
+
+	font-size: 20px;
+	background-color: #e4e4e4;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.labelFlotante label{
+	bottom: 34px;
+font-size: 12px;
+  position:absolute;
+  
+}
+#lblNombre,#lblApellido,#lblEmail,#lblCi{
+	margin-left: 5%;
+visibility : hidden	
+}
+
+article{
+ width: 100%;
+   overflow: hidden;
+
+}#divApellido{
+	margin-left: 51%;
+}
+#checkboxError{
+margin-left: 45%;	
+}
+#loremUno,#loremDos,#loremTres,#loremCuatro{
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 22%;
+display: inline-block;
+vertical-align: top;
+}
+#loremImg,#loremImg2,#loremImg3,#loremImg4{
+	max-width: 100%;
+}
+#formulario{
+	border-bottom: 2px solid #D6D6D1;
+
+}
+#formularioPersona{	
+	width:60%;
+	margin-top: 5%;
+	text-align: left;
+	margin-bottom: 5%;
+	margin-left: 25%;
+
+}
+
+
+#submit{
+	background-color: #4da6e4;
+	  display: inline;
+  padding: 10px 30px 10px 30px;
+  font-size: 90%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+ margin-left: 40%;
+}
+#submit:hover,
+#submit:focus {
+  background-color: #31b0d5;
+}
+#basesCondiciones{
+opacity: 0.5;
+}
+select{
+	width:10%;
+}
+
+#apellidoError,#localidadError{
+margin-left: 50%;
+}
+@media screen and (max-width: 768px){
+	#basesCondiciones{
+		font-size: 90%;
+	}
+	#fbIcon	{
+	margin-top: 2%;
+	}
+	
+#landingRight,#email{
+	margin-top: 4%;
+}
+#loremUno,#loremDos,#loremTres,#loremCuatro{
+	width: 40%;
+		margin-left: 6%;
+}
+#formularioPersona{	
+width: 100%;
+margin-left: 1.5%;
+}
+
+
+.decoracion{
+width: 40%;
+}
+#email{
+	width:90%;
+}
+}
+@media screen and (max-width: 380px){
+	#landingRight{
+		display: none;
+	}
+#basesCondiciones{
+font-size: 120%;
+}
+ #chbAceptar,#apellidoError,#localidadError,#nombreError,#emailError,#ciError{
+ margin-left: 5%;
+ }
+#fbIcon{
+	margin-right: 5%;
+	margin-top: 4%;
+}
+#parteArriba p{
+	margin-left: 8%;
+}
+#loremUno,#loremDos,#loremTres,#loremCuatro{
+	width: 90%;
+	display:block;}
+	#textoBanner{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+
+
+
+#chbAceptar,#apellido{
+	margin-top: 8%;
+	
+}
+#lblNombre,#lblEmail,#lblCi,#checkboxError{
+margin-left: 10%;
+  }
+#lblApellido{
+	margin-left: -40%;
+}
+.decoracion{
+width: 80%;
+display: block;
+margin-left: 3%;
+}
+#email{
+	width:80%;
+	display: block;
+	margin-left: 3%;
+}
+}
+
+.error{
+	color: red;
+}

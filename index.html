@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<title>Home</title>
+</head>
+<body>
+
+<header><div id="parteArriba"><p>Landing Page</p><img src="img/fbIcon.png" id="fbIcon" alt="fbIcon"> <p id="landingRight">SEGUÍ CONECTADO </p>
+
+</div>
+
+	<h3 id="textoBanner">IMAGEN FULL WIDTH</h3>
+	<nav><p>Soy un Hero!</p></nav>
+</header>
+
+<article>
+	<div id="loremUno">
+		<img src="img/cuadradoGris.png" id="loremImg" alt="loremUno">
+	<h3 id="primerTitulo"></h3>
+<p id="primerLorem"></p>
+</div>
+	
+	<div id="loremDos">
+		<img src="img/cuadradoGris.png" id="loremImg2" alt="loremDos">
+		<h3 id="segundoTitulo"> 
+		</h3>
+		<p id="segundoLorem"></p>
+	</div>
+	<div id="loremTres">
+<img src="img/cuadradoGris.png" id="loremImg3" alt="loremTres">
+<h3 id="tercerTitulo"></h3>
+<p id="tercerLorem"></p>
+	</div>
+	<div id="loremCuatro">
+<img src="img/cuadradoGris.png" id="loremImg4" alt="loremUno">
+		<h3 id="cuartoTitulo"></h3>
+		<p id="cuartoLorem"></p>
+	</div>
+</article>
+<div id="formulario" >
+	<h1>Formulario</h1>
+	</div>
+	<form id="formularioPersona">
+
+	<input type="text"  class="decoracion" placeholder="Nombre" id="nombre" > 
+<div class="labelFlotante" id="lblNombre"><label >Nombre</label></div>
+	&nbsp;&nbsp;
+
+	<div id="nombreError" class="error" >
+	
+	</div>
+
+	<input type="text" placeholder="Apellido" class="decoracion" id="apellido">
+	<div id="divApellido"><div class="labelFlotante" id="lblApellido"><label >Apellido</label></div></div>
+<div id="apellidoError" class="error"></div>
+		
+	
+	<input type="email"  placeholder="e-Mail" class="decoracion" id="email"  >
+<div class="labelFlotante" id="lblEmail"><label>Email</label></div>
+	<div id="emailError" class="error"> </div>	
+	
+	
+	<select class="decoracion" id="departamentos">
+		<option selected disabled>Departamento</option>
+	</select >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <select class="decoracion" id="localidad">
+		<option selected disabled>Localidad</option>
+	</select>
+
+	<div id="localidadError" class="error"></div>
+			
+	<input type="number" placeholder="C.I" class="decoracion" id="ci"> 
+	<div class="labelFlotante" id="lblCi" ><label >C.I</label></div>
+	<div id="ciError" class="error"></div>
+
+	<input type="checkbox" id="chbAceptar"><label id="basesCondiciones" >Acepto las bases y condiciones</label>
+	<div id="checkboxError" class="error"></div>
+	<br>
+	<br>
+	
+	<span id="submit"><label class="noTargeteable" >ENVIAR</label></span>
+</form>
+
+<script src="js/funciones.js"></script>
+<script src="js/datos.js"></script>
+<script src="js/validarFormulario.js"></script>
+</body>
+
+</html>
